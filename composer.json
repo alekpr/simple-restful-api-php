@@ -1,0 +1,7 @@
+{
+	"require" : {
+		"slim/slim" : "2.6.2",
+		"adodb/adodb-php" : "5.19",
+		"entomb/slim-json-api" : "1.1.0"
+	}
+}
