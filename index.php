@@ -8,6 +8,7 @@ use Libs\MyClass\Coffee;
  * Description - Retrieves a list of coffee
  */
 $app->get("/coffee",function() use ($app) {
+	//print_r($app->request()->headers());
 	$coffee = new Coffee();
 	$allcoffee = $coffee->AllCoffee();
 	$app->render(200,array("data"=>$allcoffee));
